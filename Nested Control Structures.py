@@ -20,11 +20,17 @@ print("\n***********\n")
 """
 Programmer: Ben Slager
 Date:10.23.19
-Program: Categories
+Program: For Loop + While Loop
 
-This program will ask users of an interest to them then ask for two items related to that interest
+This program will incoporate a for loop embeeding a while loop in it
 
 """
+for i in range(4):
+    print("Outer For Loop: " + str(i))
+    x = 6
+    while x >= 0:
+        print("    While Loop: " + str(x))
+        x = x - 1
 
 
 
